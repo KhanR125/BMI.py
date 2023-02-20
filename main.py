@@ -17,7 +17,7 @@ def bmi_calculator(name, height_m, weight_kg):
     print("bmi :")
     print(bmi)
     if bmi < 25:
-        return name + " not overweight"
+        return name + " is not overweight"
     else:
         return name + " is overweight"
     
