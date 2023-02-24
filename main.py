@@ -1,13 +1,13 @@
 # BMI Calculator
-name1 = "YK"
+name1 = "John"
 height_m1 = 2
 weight_kg1 = 90
 
-name2 = "YK Sister"
+name2 = "Sandra"
 height_m2 = 1.8
 weight_kg2 = 70
 
-name3 = "YK Brother"
+name3 = "Samuel"
 height_m3 = 2.5
 weight_kg3 = 160
 
@@ -17,7 +17,7 @@ def bmi_calculator(name, height_m, weight_kg):
     print("bmi :")
     print(bmi)
     if bmi < 25:
-        return name + " not overweight"
+        return name + " is not overweight"
     else:
         return name + " is overweight"
     
